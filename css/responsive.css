@@ -1,0 +1,271 @@
+@media (max-width: 576px) {
+  .container {
+    width: auto;
+    margin: 0 auto;
+  }
+  .Navbar_icontext {
+    width: auto;
+  }
+  h1.text_0 {
+    font-size: 18px;
+  }
+  span.text_1 {
+    font-size: 18px;
+  }
+  .mainNavBar {
+    display: none;
+  }
+  /* BANNER STARTS  */
+  .Banner_wrapper {
+    width: auto;
+    margin-top: 15px;
+  }
+  .Banner_des {
+    padding-top: 30px;
+  }
+  h1.Banner_tit {
+    font-size: 25px;
+  }
+  p.Banner_para {
+    font-size: 13px;
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .Banner_focus {
+    width: auto;
+    flex-direction: column;
+    margin-top: 5px;
+  }
+  .Banner_btn button {
+    margin-bottom: 10px;
+  }
+  /* BANNER-ENDS */
+
+  /* TOURS START */
+  section#Tours {
+    padding-bottom: 30px;
+  }
+  .Tours_wrapper {
+    width: auto;
+    flex-direction: column;
+  }
+  .Tours_details {
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  h1.Tours_tit {
+    font-size: 25px;
+  }
+  h2.Tours_subtit {
+    width: 100%;
+    font-size: 15px;
+  }
+  ul.Tours_list {
+    width: auto;
+  }
+  h2.Tours_conculation {
+    width: auto;
+    font-size: 15px;
+    text-align: justify;
+  }
+  .Tours_img {
+    padding-top: 30px;
+  }
+  .Tours_img img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* TOURS-ENDS */
+
+  /* CHOOSE STARTS */
+
+  .Choose_tit h1 {
+    width: auto;
+    font-size: 20px;
+  }
+  .Choose_tit P {
+    width: auto;
+    font-size: 15px;
+    text-align: justify;
+    padding: 15px;
+  }
+  .Choose_destination {
+    width: auto;
+    flex-direction: column;
+  }
+  .Choose_destination2 {
+    width: auto;
+    flex-direction: column;
+  }
+  .Choose_destination2 img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .Choose_destination3 {
+    width: auto;
+    flex-direction: column;
+  }
+  .Choose_destination3 img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .Choose_destination img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .choose_img-tit {
+    position: absolute;
+    top: 20%;
+    right: 320px;
+    font-size: 20px;
+  }
+  .choose_img-tit0 {
+    position: absolute;
+    top: 74%;
+    right: 300px;
+    font-size: 20px;
+  }
+  .choose_img-center {
+    position: absolute;
+    top: 15%;
+    right: 80%;
+    font-size: 20px;
+  }
+  .choose_img-center0 {
+    width: 75%;
+    position: absolute;
+    top: 48%;
+    right: 53%;
+    font-size: 20px;
+  }
+
+  .choose_center3 {
+    position: absolute;
+    top: 83%;
+    right: 66%;
+    font-size: 20px;
+  }
+  .choose_base-tit {
+    position: absolute;
+    top: 22%;
+    right: 240px;
+    font-size: 20px;
+  }
+  .choose_base-tit2 {
+    position: absolute;
+    top: 75%;
+    right: 350px;
+    font-size: 20px;
+  }
+  /* CHOOSE ENDS */
+
+  /* <!-- CHOOSE-SERVICE-START --> */
+
+  /* <!-- CHOOSE-SERVICE-END --> */
+
+  /* TECHNOLOGY STARTS */
+
+  /* TECHNOLOGY ENDS */
+
+  /* SUPPORT ENDS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* SUPPORT ENDS */
+
+  /* PLAN ENDS */
+
+ 
+
+  /* PLAN ENDS */
+
+  /* ABOUT STARTS */
+
+  
+  /* ABOUT ENDS */
+
+  /* PAYMENT STARTS */
+
+ 
+  /* PAYMENT ENDS */
+
+  /* FOOTER STARTS */
+
+  #footer {
+    width: auto;
+  }
+  .f-left {
+    width: auto;
+    text-align: center;
+  }
+  .f-left p {
+    width: auto;
+    font-size: 13px;
+    padding: 0px 10px;
+  }
+  .foot-right {
+    width: auto;
+    display: block !important;
+    text-align: center;
+  }
+  .foot {
+    width: auto;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .s-Links {
+    padding-top: 0px;
+  }
+  ul.Links {
+    margin-left: 0px;
+  }
+  .s-Links .Links li {
+    width: auto;
+    padding-top: 20px;
+  }
+  .s-Links .Links li a {
+    font-size: 16px;
+  }
+  .policy {
+    width: auto;
+    margin: 0 auto;
+    display: block !important;
+    text-align: center;
+  }
+  .policy h5 {
+    font-size: 16px;
+  }
+  .policy a {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  a span {
+    color: cadetblue;
+    margin-right: 8px;
+    margin-left: 8px;
+  }
+  .thought {
+    width: auto;
+  }
+  .single-items:hover {
+    width: auto;
+  }
+  /* FOOTER ENDS */
+}
