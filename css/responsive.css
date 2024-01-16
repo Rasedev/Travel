@@ -164,46 +164,101 @@
 
   /* <!-- CHOOSE-SERVICE-START --> */
 
+  .services_tit {
+    font-size: 25px;
+  }
+  .services_subtit {
+    width: auto;
+    font-size: 15px;
+  }
+  .servives_headline h1 {
+    font-size: 22px;
+  }
+  .services_block-top {
+    width: auto;
+    flex-direction: column;
+  }
+  .services_block {
+    width: 100%;
+  }
+  .servives_headline {
+    width: auto;
+  }
+  .services_block0 {
+    margin-top: 10px;
+  }
+  .services_block-base {
+    width: auto;
+    height: auto;
+  }
   /* <!-- CHOOSE-SERVICE-END --> */
 
-  /* TECHNOLOGY STARTS */
+  /* DISCOUNT-STARTS */
+  .Discount_tit {
+   font-size: 25px;
+  }
 
-  /* TECHNOLOGY ENDS */
+  .Discount_subtit {
+    width: auto;
+    padding-bottom: 10px;
+  }
+  .Discount_top{
+    width: 270px;
+    height: 297px;
+    position: absolute;
+    top: 38%;
+    right: 4%;
+    padding: 0 25px;
+  }
+  .Discount_icon {
+    width: auto;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+  .Discount_list {
+    width: auto;
+    line-height: 35px;
+  }
+  .Discount_1{
+    font-size: 16px;
+  }
+  .Discount_headline h1{
+    font-size: 20px;
+  }
+  .Discount_para{
+   width: auto;
+   font-size: 14px;
+   padding-top: 0px;
+  }
+  .hide{
+    display: none;
+  }
+.Discount_prices {
+  font-size: 16px;
+  padding-bottom: 16px;
+}
+.app_btn button{
+  width: 130px;
+  height: 40px;
+  padding: 0px;
+}
+  /* DISCOUNT-ENDS */
 
   /* SUPPORT ENDS */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   /* SUPPORT ENDS */
 
   /* PLAN ENDS */
-
- 
 
   /* PLAN ENDS */
 
   /* ABOUT STARTS */
 
-  
   /* ABOUT ENDS */
 
   /* PAYMENT STARTS */
 
- 
   /* PAYMENT ENDS */
 
   /* FOOTER STARTS */

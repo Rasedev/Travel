@@ -606,7 +606,7 @@ section#services {
 .Discount_left {
   padding-top: 30px;
 }
-h1.Discount_tit {
+.Discount_tit {
   color: #131318;
   text-align: center;
   font-family: "Mulish", sans-serif;
@@ -618,7 +618,7 @@ h1.Discount_tit {
   width: 145px;
   text-align: center;
 }
-p.Discount_subtit {
+.Discount_subtit {
   width: 643px;
   color: rgba(19, 19, 24, 0.7);
   text-align: center;
@@ -711,7 +711,7 @@ p.Discount_subtit {
   font-size: 24px;
   font-weight: 800;
 }
-p.Discount_para {
+.Discount_para {
   font-family: "Mulish", sans-serif;
   width: 452px;
   color: #5A5A5D;
