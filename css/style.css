@@ -262,6 +262,7 @@ section#Tours {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 h1.Tours_tit {
   font-family: "Mulish", sans-serif;
@@ -732,6 +733,18 @@ section#services {
 
 /* <!-- DISCOUNTS-END --> */
 
+
+  /* PLACES-START */
+
+  .Places_tit {
+    font-family: "Mulish", sans-serif;
+    width: 448px;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
 .Places_subtit {
   font-family: "Mulish", sans-serif;
   width: 532px;
@@ -741,7 +754,7 @@ section#services {
   line-height: 26px;
   padding-bottom: 24px;
 }
-ul.Places_list {
+.Places_list {
   width: 518px;
   color: rgba(19, 19, 24, 0.7);
   font-family: "Mulish", sans-serif;
@@ -749,41 +762,50 @@ ul.Places_list {
   font-weight: 400;
   line-height: 26px; /* 162.5% */
 }
+.Places_img {
+  padding-top: 100px;
+}
 
+/* PLACES-START */
+
+/* NEWSLETTER-START */
 
 #Newsletter {
   padding-bottom: 100px;
+}
+.Newsletter_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
 }
 
 .Newsletter_tit {
   color: #131318;
   font-family: "Mulish", sans-serif;
+  width: 200px;
   font-size: 24px;
   font-weight: 800;
   padding-bottom: 16px;
   
 }
-h2.Newsletter_subtit {
+.Newsletter_subtit {
   font-family: "Mulish", sans-serif;
-    width: 350px;
+    width: 340px;
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     border-bottom: 2px solid lightgrey;
-    padding-bottom: 12px;
+    padding-bottom: 20px;
 }
 
 .link input {
-  width: 100%;
+  width: 92%;
   outline: none;
   padding: 10px;
   border: none;
-  border-radius: 1px;
-  -webkit-border-radius: 1px;
-  -moz-border-radius: 1px;
-  -ms-border-radius: 1px;
-  -o-border-radius: 1px;
+  border-radius: 8px !important;
   background-color: #efefef;
 }
 
@@ -792,7 +814,7 @@ h2.Newsletter_subtit {
   padding-top: 20px;
 }
 .categories_photo {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 .app_btn2 button {
   background-color: var(--primary-color);
@@ -806,8 +828,8 @@ h2.Newsletter_subtit {
   font-family: "Mulish", sans-serif;
   font-weight: 600;
   border: none;
-  width: 393px;
-height: 52px;
+  width: 342px;
+
 }
 
 .app_btn2 button:hover {
@@ -816,11 +838,21 @@ height: 52px;
   border: none;
 }
 
-.Newsletter_img {
-  padding-top: 100px;
+.Newsletter_image {
+ 
   position: relative;
 }
-
+.Newsletter_image img {
+  width: 672px;
+  height: 422px;
+}
+.Newsletter_details {
+  border-radius: 16px;
+  border: 1px solid #FF5400;
+  padding: 50px 40px;
+  width: 450px;
+  height: 422px;
+}
 
 .Newsletter_tag h2 {
   color: #FFF;
@@ -845,11 +877,14 @@ height: 52px;
   border-radius: 16px;
   background: #FF5400;
   position: absolute;
-    top: 68%;
+    top: 60%;
     right: 2%;
 }
+/* NEWSLETTER-ENDS */
 
-section.Footer {
+ /* FOOTER-STARTS */
+
+.Footer {
   background: rgba(19, 19, 24, 0.05);
 }
 
@@ -887,13 +922,11 @@ section.Footer {
   width: 174.322px;
   height: 24px;
   flex-shrink: 0;
-  color: black;
- 
-  
+  color: black;  
 }
 
 .Footer_social {
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .Footer_base{
@@ -903,3 +936,5 @@ section.Footer {
   padding-top: 50px;
   padding-bottom: 110px;
 }
+
+ /* FOOTER-ENDS */

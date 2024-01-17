@@ -61,14 +61,17 @@
   h2.Tours_subtit {
     width: 100%;
     font-size: 15px;
+    padding: 8px;
   }
   ul.Tours_list {
     width: auto;
+    font-size: 15px;
   }
   h2.Tours_conculation {
     width: auto;
     font-size: 15px;
     text-align: justify;
+    padding: 8px;
   }
   .Tours_img {
     padding-top: 30px;
@@ -236,91 +239,118 @@
   }
 .Discount_prices {
   font-size: 16px;
-  padding-bottom: 16px;
+  padding-bottom: 12px;
 }
 .app_btn button{
   width: 130px;
   height: 40px;
   padding: 0px;
 }
+.Discount_top2{
+  width: 270px;
+  height: 297px;
+  position: absolute;
+  top: 38%;
+  right: 4%;
+  padding: 0 25px;
+}
   /* DISCOUNT-ENDS */
 
-  /* SUPPORT ENDS */
+  /* PLACES-START */
 
-  /* SUPPORT ENDS */
-
-  /* PLAN ENDS */
-
-  /* PLAN ENDS */
-
-  /* ABOUT STARTS */
-
-  /* ABOUT ENDS */
-
-  /* PAYMENT STARTS */
-
-  /* PAYMENT ENDS */
-
-  /* FOOTER STARTS */
-
-  #footer {
-    width: auto;
+  .Places_tit {
+    width: 100%;
+    font-size: 25px;
   }
-  .f-left {
-    width: auto;
-    text-align: center;
-  }
-  .f-left p {
-    width: auto;
-    font-size: 13px;
-    padding: 0px 10px;
-  }
-  .foot-right {
-    width: auto;
-    display: block !important;
-    text-align: center;
-  }
-  .foot {
-    width: auto;
-    text-align: center;
-    margin-top: 50px;
-  }
-  .s-Links {
-    padding-top: 0px;
-  }
-  ul.Links {
-    margin-left: 0px;
-  }
-  .s-Links .Links li {
-    width: auto;
-    padding-top: 20px;
-  }
-  .s-Links .Links li a {
-    font-size: 16px;
-  }
-  .policy {
-    width: auto;
-    margin: 0 auto;
-    display: block !important;
-    text-align: center;
-  }
-  .policy h5 {
-    font-size: 16px;
-  }
-  .policy a {
+  .Places_subtit{
+    width: 100%;
     font-size: 15px;
-    margin-bottom: 8px;
   }
-  a span {
-    color: cadetblue;
-    margin-right: 8px;
-    margin-left: 8px;
-  }
-  .thought {
+  .Places_list {
     width: auto;
+    font-size: 14px;
+    color: #131318;
+   font-weight: 700;
   }
-  .single-items:hover {
+  .categories_photo {
+    padding-top: 15px;
+  }
+  .Places_img{
     width: auto;
+    padding-top: 30px;
   }
-  /* FOOTER ENDS */
+  iframe{
+    width: 100%;
+    height:200px;
+  }
+  /* PLACES-ENDS */
+
+ /* NEWSLETTER-START */
+
+ .Newsletter_wrapper{
+  width: auto;
+  flex-direction: column;
+ }
+ .Newsletter_details {
+  width: auto;
+  padding: 50px 25px;
 }
+ .Newsletter_image {
+   width: auto;
+   padding-top: 16px;
+ }
+ .Newsletter_image img {
+  width: 100%;
+  height: 300px;
+}
+ .Newsletter_subtit{
+  width: auto;
+  font-size: 15px;
+ }
+ .link input {
+  width: 100%;
+  font-size: 16px;
+ }
+ .app_btn2 button{
+  width: 100%;
+ }
+ .Newsletter_tag {
+  width: 72%;
+  height: 20%;
+  transform: rotate(-19.628deg);
+  top: 70%;
+  right: 2%;
+}
+ .Newsletter_tag h2{
+   font-size: 16px;
+   padding-top: 5px;
+ }
+ .Newsletter_tag h1{
+  font-size: 21px;
+  line-height: 22px;
+  margin-left: 10px;
+ }
+ /* NEWSLETTER-ENDS */
+
+ /* FOOTER-STARTS */
+
+ .Footer_wrapper{
+  width: auto;
+  padding-top: 10px;
+ }
+ .Footer_logo{
+  width: auto;
+
+ }
+ .Footer_ p {
+  font-size: 14px;
+ }
+ .Footer_base{
+  width: auto;
+  padding-top: 0px;
+  padding-bottom: 12px;
+ }
+ .copyright{
+  font-size: 14px;
+ }
+  /* FOOTER-ENDS */
