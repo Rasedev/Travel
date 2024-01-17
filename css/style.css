@@ -12,7 +12,26 @@
   --text-color: #424247;
   --black: #363636;
 }
-
+@media only screen and (max-width: 992px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+@media only screen and (max-width: 768px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
 body {
   font-size: 18px;
   font-weight: 400;
@@ -24,32 +43,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: "";
+
 }
 .container {
   max-width: 1170px;
   margin: 0 auto;
 }
-@media only screen and (max-width: 992px) {
-  html,
-  body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-  }
-}
 
-@media only screen and (max-width: 768px) {
-  html,
-  body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-  }
-}
 
 h1,
 h2,
@@ -156,7 +156,7 @@ ul.menu {
   background: #f8f9fa;
   padding: 0px 0px;
   position: absolute;
-  top: 55px;
+  top: 45px;
 }
 .subMenu li {
   float: none;
@@ -936,5 +936,9 @@ section#services {
   padding-top: 50px;
   padding-bottom: 110px;
 }
-
+.Footer_icon img {
+  width: 28px;
+  background: #fff;
+  margin-right: 7px;
+}
  /* FOOTER-ENDS */
