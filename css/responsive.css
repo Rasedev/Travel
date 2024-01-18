@@ -7,8 +7,11 @@
   .Navbar_icontext {
     width: auto;
   }
+  .Navbar_icon img {
+    width: 40px;
+}
   h1.text_0 {
-    font-size: 18px;
+    font-size: 21px;
   }
   span.text_1 {
     font-size: 21px;
@@ -41,6 +44,7 @@
   }
   .Banner_btn button {
     margin-bottom: 10px;
+    
   }
   /* BANNER-ENDS */
 
@@ -124,18 +128,18 @@
   .choose_img-tit {
     position: absolute;
     top: 20%;
-    right: 320px;
+    right: 95%;
     font-size: 20px;
   }
   .choose_img-tit0 {
     position: absolute;
     top: 74%;
-    right: 300px;
+    right: 90%;
     font-size: 20px;
   }
   .choose_img-center {
     position: absolute;
-    top: 15%;
+    top: 13%;
     right: 80%;
     font-size: 20px;
   }
@@ -754,10 +758,10 @@
 }
   
   
-
+/* 
   @media (min-width: 768px) and (max-width: 991.98px) {
    
   }
 
 
-  @media (min-width: 992px) and (max-width: 1199.98px) {}
+  @media (min-width: 992px) and (max-width: 1199.98px) {} */
